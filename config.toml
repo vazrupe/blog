@@ -1,0 +1,54 @@
+baseURL = "https://codefict.com/"
+title = "CODEFICT"
+languageCode = "kr-ko"
+
+theme = "hyde-hyde"
+
+enableRobotsTXT = true
+disqusShortname = "vazrupe"
+
+pygmentsUseClasses = false
+
+## Site Settings
+[params]
+    author = "Vazrupe"
+    title = "CODEFICT"
+    description = "HyeonGyu Lee (Vazrupe)"
+    themeColor = "theme-base-0d"
+    authorimage = "/img/author-profile.jpg"
+    dateformat = "2006-01-02 15:04 MST"
+    highlightjs = true
+    highlightjsstyle = "ocean"
+    highlightjslanguages = ["go"]
+
+#[params.meta]
+#    keywords = "keywords"
+#    description = "Vazrupe's blog :: "
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+## Social Accounts
+[params.social]
+    github = "vazrupe"
+    twitter = "vazrupe"
+    facebook = "vazrupe"
+    email = "vazrupe@naver.com"
+
+## Main Menu
+[[menu.main]]
+    name = "POSTS"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "CATEGORIES"
+    identifier = "categories"
+    weight = 200
+    url = "/categories/"
+[[menu.main]]
+    name = "TAGS"
+    identifier = "tags"
+    weight = 200
+    url = "/tags/"

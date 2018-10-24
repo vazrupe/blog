@@ -1,0 +1,21 @@
+language: go
+go:
+  - master
+
+install:
+  - go get github.com/gohugoio/hugo
+
+script:
+  - hugo --config=config.toml,ga.toml
+
+deploy:
+  local_dir: public
+  repo: vazrupe/vazrupe.github.io
+  target_branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: vazrupe@naver.com
+  name: "Vazrupe (HyeonGyu Lee)"
+  on:
+    branch: master
