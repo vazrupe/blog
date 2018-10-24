@@ -1,5 +1,5 @@
 baseURL = "https://codefict.com/"
-title = "CODEFICT"
+title = "CodeFIct"
 languageCode = "kr-ko"
 
 theme = "hyde-hyde"
@@ -12,7 +12,7 @@ pygmentsUseClasses = false
 ## Site Settings
 [params]
     author = "Vazrupe"
-    title = "CODEFICT"
+    title = "CodeFIct"
     description = "HyeonGyu Lee (Vazrupe)"
     themeColor = "theme-base-0d"
     authorimage = "/img/author-profile.jpg"
