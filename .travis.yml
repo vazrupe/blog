@@ -3,10 +3,11 @@ go:
   - "1.11"
 
 install:
-  - go get github.com/gohugoio/hugo@v0.49.2
+  - go get github.com/gohugoio/hugo
 
 script:
-  - hugo --config=config.toml,ga.toml
+  - hugo --config=config.toml,google_analytics.toml
+  - echo "$CNAME_URL" > public/CNAME
 
 deploy:
   local_dir: public
@@ -15,7 +16,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  email: vazrupe@naver.com
-  name: "Vazrupe (HyeonGyu Lee)"
+  email: $GITHUB_EMAIL
+  name: $GITHUB_USERNAME
   on:
     branch: master
