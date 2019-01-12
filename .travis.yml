@@ -1,9 +1,9 @@
 language: go
 go:
-  - master
+  - "1.11"
 
 install:
-  - go get github.com/gohugoio/hugo
+  - go get github.com/gohugoio/hugo@v0.49.2
 
 script:
   - hugo --config=config.toml,ga.toml
