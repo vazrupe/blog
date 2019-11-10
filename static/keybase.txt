@@ -1,0 +1,58 @@
+vazrupe
+HyeonGyu Lee
+==================================================================
+https://keybase.io/vazrupe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codefict.dev
+  * I am vazrupe (https://keybase.io/vazrupe) on keybase.
+  * I have a public key ASA5GjhY9wOgYPKFUj2WTmgVzXPZWOzUStCZlgZYcRSkuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120391a3858f703a060f285523d964e6815cd73d958ecd44ad0999606587114a4b80a",
+      "host": "keybase.io",
+      "kid": "0120391a3858f703a060f285523d964e6815cd73d958ecd44ad0999606587114a4b80a",
+      "uid": "6e1a266e8353086d8b11d77bd9786f19",
+      "username": "vazrupe"
+    },
+    "merkle_root": {
+      "ctime": 1573430147,
+      "hash": "48cee587453ea5efdefa3dce773a99fc7a5c5e65edbfffd322912d422e5a9766c89d5e947ba861db6bfb33da23073ab8dc50d684468f9ada9953979e449ca647",
+      "hash_meta": "b4656b4d86aa7b5db0d36d600dab4abdca5ba2b0d72e9e2b660a57d2950e4bb4",
+      "seqno": 9112195
+    },
+    "service": {
+      "entropy": "t/qiyS0b1GjlLXG6cuxBtJTZ",
+      "hostname": "codefict.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573430157,
+  "expire_in": 504576000,
+  "prev": "49dbdb24f5df7254e198d871a5e047e31c385ef655b15a7321986144c3454400",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgORo4WPcDoGDyhVI9lk5oFc1z2Vjs1ErQmZYGWHEUpLgKp3BheWxvYWTESpcCBcQgSdvbJPXfclThmNhxpeBH4xw4XvZVsVpzIZhhRMNFRADEIPuCPMbstNAqlUFqPJIriJl649WEBjmHHTae6uzcoyJHAgHCo3NpZ8RAxQPWMkQrb44z+3wethQxb5PssNmKvu4ZadJpiJ9azZfaGr5b2/Gu74zmFm50bgOrHK39fDbbApRZaDuZrRj9D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJfAmv2/mIrcEJgARX7ab4Vw3kFtVdGt7uvqVHDLYFUdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vazrupe
+
+==================================================================

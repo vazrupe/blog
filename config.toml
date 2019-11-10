@@ -5,7 +5,9 @@ languageCode = "kr-ko"
 theme = "hyde-hyde"
 
 enableRobotsTXT = true
-disqusShortname = "vazrupe"
+
+UtterancesRepo = "vazrupe/vazrupe.github.io"
+UtterancesIssueTerm = "pathname"
 
 pygmentsUseClasses = false
 
