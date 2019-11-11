@@ -6,9 +6,6 @@ theme = "hyde-hyde"
 
 enableRobotsTXT = true
 
-UtterancesRepo = "vazrupe/vazrupe.github.io"
-UtterancesIssueTerm = "pathname"
-
 pygmentsUseClasses = false
 
 ## Site Settings
@@ -21,7 +18,9 @@ pygmentsUseClasses = false
     dateformat = "2006-01-02 15:04 MST"
     highlightjs = true
     highlightjsstyle = "ocean"
-    highlightjslanguages = ["go"]
+    highlightjslanguages = ["go", "rust", "cs"]
+    UtterancesRepo = "vazrupe/vazrupe.github.io"
+    UtterancesIssueTerm = "pathname"
 
 #[params.meta]
 #    keywords = "keywords"
@@ -36,6 +35,7 @@ pygmentsUseClasses = false
     github = "vazrupe"
     twitter = "vazrupe"
     facebook = "vazrupe"
+    keybase = "vazrupe"
     email = "vazrupe@naver.com"
 
 ## Main Menu
