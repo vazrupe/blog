@@ -19,7 +19,7 @@ jobs:
       id: go
 
     - name: Installation hugo
-      run: go install github.com/gohugoio/hugo
+      run: go get github.com/gohugoio/hugo
 
     - name: Build site
       run: hugo --config=config.toml,google_analytics.toml
