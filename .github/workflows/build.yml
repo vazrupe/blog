@@ -1,12 +1,16 @@
-name: Build
-on: [push]
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout blog and theme
+      - name: Checkout blog source
         uses: actions/checkout@v1
         with:
           submodules: recursive
@@ -19,7 +23,7 @@ jobs:
       - name: Build
         run: hugo --config=config.toml,google_analytics.toml
 
-      - name: Publish
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
           EXTERNAL_REPOSITORY: vazrupe/vazrupe.github.io
